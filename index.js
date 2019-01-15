@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function getFirstSelector(selector) {
   return document.querySelector(selector);
 }
@@ -17,5 +18,9 @@ function increaseRankBy(n) {
 function deepestChild(element) {
   var nodes = document.querySelectorAll('#grand-node div');
   return nodes[nodes.length-1]
+=======
+getFirstSelector(selector) {
+  return document.querySelector(selector)
+>>>>>>> a557bce3b4d73b9c668793fdfea4333d3e7d44fd
 }
 
